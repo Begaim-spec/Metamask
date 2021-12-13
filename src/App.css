@@ -1,20 +1,40 @@
-.App {
-  text-align: center;
-  padding: 70px 0;
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #061539;
+  padding:  20px;
+  color: white;
+  margin-bottom: 40px;
+}
+.user-info{
+  top: 0;
+  text-align: right;
+}
+.main{
+  padding: 0 40px;
 }
 
 .input{
   padding: 10px;
-  display: flex;
-  width: 300px;
+  display: block;
+  width: 450px;
+  border-color: #3d3dcd;
   margin: 20px auto;
   border-radius: 10px;
 }
-
+.balance-box{
+  margin: 0 auto;
+  padding: 10px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+  border-radius: 10px;
+  text-align: center;
+  width: 600px;
+}
 .button{
-  background-color: blue;
-  padding: 20px 50px;
+  background-color: #4F628E;
+  padding: 10px 35px;
   font-size: 18px;
   color: white;
-  border: 2px solid white;
+  border-radius: 50px;
 }
